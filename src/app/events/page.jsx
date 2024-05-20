@@ -4,7 +4,7 @@ import Footer from '../../components/footer'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function Content() {
+export default function Events() {
   const data = [
     {
       "id": 1,
@@ -64,7 +64,7 @@ export default function Content() {
         <div className='text-2xl font-bold'>Бүх мэдээ</div>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4' >
           {data.map((datas) => (
-            <Link target='_blank' key={datas.id} href={`/content/${datas.id}`}>
+            <Link target='_blank' key={datas.id} href={`/events/${datas.id}`}>
               <div  className='rounded-lg border-2 cursor-pointer'>
                 <div className='relative aspect-video w-full hover:scale-100'>
                   <Image fill alt={datas.title} className="rounded-t-lg object-cover" src={datas.image.url} />

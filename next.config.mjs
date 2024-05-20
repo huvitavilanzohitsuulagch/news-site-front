@@ -6,6 +6,18 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'back.sbd.gov.mn',
       },
+      {
+        protocol: 'https',
+        hostname: 'gerege.mn',
+      },
+      {
+        protocol: 'https',
+        hostname: 'via.placeholder.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'chingeltei.gov.mn',
+      },
     ],
   },
 };

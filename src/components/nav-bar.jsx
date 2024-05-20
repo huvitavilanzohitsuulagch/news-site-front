@@ -27,9 +27,13 @@ export default function Navbar ()  {
             <Link href="/content">
               <p className={`p-2 cursor-pointer hover:bg-gray-200 rounded-md ${pathname === '/content' &&  'font-bold '}`}>Мэдээ</p>
             </Link>
+            <Link href="/events">
+              <p className={`p-2 cursor-pointer hover:bg-gray-200 rounded-md ${pathname === `/events` &&  'font-bold '}`}>Үйл ажилгаа</p>
+            </Link>
             <Link href="/about">
               <p className={`p-2 cursor-pointer hover:bg-gray-200 rounded-md ${pathname === '/about' &&  'font-bold '}`}>Бидний тухай</p>
             </Link>
+
           </div>
         </div>
         <Link href='/login'>

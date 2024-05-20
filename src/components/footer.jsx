@@ -6,7 +6,7 @@ import { Instagram1 } from '../assets/instagram'
 
 export default function Footer() {
 return <>
-  <section className="flex flex-col items-center py-16 text-center">
+  <section className="flex flex-col items-center  py-16 text-center">
     <div className="max-w-[660px] space-y-12">
       <div className="space-y-3">
         <h2 className="font-bold text-2xl">FAQs</h2>
@@ -33,8 +33,8 @@ return <>
       </Accordion>
     </div>
   </section>
-  <footer className="w-full space-y-12 p-2">
-    <div className="flex flex-col justify-between space-y-5 sm:flex-row">
+  <footer className="w-4/5 space-y-12 p-2">
+    <div className="flex flex-col justify-between items-center space-y-5 sm:flex-row">
       <div className="flex space-x-6">
         <div className="relative h-[111px] w-[151px]">
           <Image fill alt="footer-logo" className="object-contain" src="/isEmpty.png" />
